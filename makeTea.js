@@ -8,15 +8,15 @@ makeTea(3, "Earl Gray");
 // Missing arguments of the function (undefined)
 makeTea(3);
 
-// "Лишние" аргументы функции
+// "Extra" arguments of the function
 makeTea(3, "Earl Grey", "hey ma!", 42);
 
-// Аргументы переданы в неверном порядке
+// Arguments passed in the wrong order
 makeTea("Earl Grey", 3);
 
 
 
-// Функция без параметров
+// Function without parameters
 function barkAtTheMoon() {
     console.log("Woooooooooooooo!");
 }
